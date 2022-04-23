@@ -1,0 +1,16 @@
+// globals
+@import './variables.scss';
+html {
+    font-family: $font-family;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    // better Font Rendering
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  body {
+    margin: 0;
+    background-color: $body-bg;
+  }
+  
