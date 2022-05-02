@@ -1,8 +1,8 @@
 <template>
-  <!-- 跟路由出口 -->
   <h1>学习测试1111</h1>
   <el-button type="success" size="default">测试</el-button>
   <el-button type="primary" size="default" @click="getA">点击</el-button>
+  <!-- 跟路由出口 -->
   <router-view/>
 </template>
 
